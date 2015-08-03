@@ -1,4 +1,17 @@
 {
   "extends": ["standard", "standard-react"],
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": [2, "always"],
+    "quotes": 0,
+    "jsx-quotes": 0,
+    "space-before-function-paren": 0,
+    "react/prop-types": 0
+  },
+  "plugins": ["eslint-plugin-react"]
 }
